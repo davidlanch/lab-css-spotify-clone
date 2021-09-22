@@ -144,13 +144,23 @@ footer {
 
 #container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
-.central{
-    padding: 0px 250px;
+.central {
+  padding: 0px 250px;
 }
+
+.border-footer {
+  padding-left: 129px;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.border-footer > h2 {
+    border-bottom: 1px solid;
+  }
 /*
 Colors:
 
