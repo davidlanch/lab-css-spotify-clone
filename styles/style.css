@@ -75,11 +75,15 @@
   position: relative;
   top: 170px;
   height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .title-spot {
   text-align: center;
-  border-bottom: 2px solid #00B172;
+  border-bottom: 2px solid #00b172;
   font-size: 40px;
   margin-bottom: 90px;
 }
@@ -88,62 +92,64 @@
   width: 100px;
 }
 
-.spotify-on{
-    display: flex;
-    justify-content: space-around;
+.spotify-on {
+  display: flex;
+  justify-content: space-around;
 }
 
-.wrapp{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
+.wrapp {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.wrapp h3{
-    color: #00B172;
-    padding: 10px;
+.wrapp h3 {
+  color: #00b172;
+  padding: 10px;
 }
 
-footer{
-    background-color: #00B172 ;
-    position: relative;
-    top: 196px;
+footer {
+  background-color: #00b172;
+  position: relative;
+  top: 196px;
 }
 
-.wrapp p{
-    width: 185px;
+.wrapp p {
+  width: 185px;
 }
 
-#footer{
-    padding: 80px;
-    color: white;
+#footer {
+  padding: 80px;
+  color: white;
 }
 
-#footer >aside >h2{
-    font-size: 36px;
-    padding-bottom: 40px;
-
+#footer > aside > h2 {
+  font-size: 36px;
+  padding-bottom: 40px;
 }
 
- .footer-info > h2{
-    font-size: 25px;
-    padding: 15px 0px;
+.footer-info > h2 {
+  font-size: 25px;
+  padding: 15px 0px;
 }
 
-.logo-white{
-    width: 90px;
-   
+.logo-white {
+  width: 90px;
 }
 
-.kenny{
-    width: 200px;
+.kenny {
+  width: 200px;
 }
 
-#container{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.central{
+    padding: 0px 250px;
 }
 /*
 Colors:
